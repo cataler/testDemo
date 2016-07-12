@@ -14,6 +14,7 @@
 		A4052A971D3492F400C19DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4052A961D3492F400C19DD3 /* Assets.xcassets */; };
 		A4052A9A1D3492F400C19DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4052A981D3492F400C19DD3 /* LaunchScreen.storyboard */; };
 		A4052AC51D349A8A00C19DD3 /* testDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4052AC41D349A8A00C19DD3 /* testDemo.podspec */; };
+		A4052AC91D349F4800C19DD3 /* testLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A4052AC81D349F4800C19DD3 /* testLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A4052A991D3492F400C19DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4052A9B1D3492F400C19DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4052AC41D349A8A00C19DD3 /* testDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testDemo.podspec; sourceTree = "<group>"; };
+		A4052AC71D349F4800C19DD3 /* testLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testLib.h; sourceTree = "<group>"; };
+		A4052AC81D349F4800C19DD3 /* testLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		A4052A891D3492F400C19DD3 /* testDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4052AC61D349F3600C19DD3 /* Lib */,
 				A4052A8D1D3492F400C19DD3 /* AppDelegate.h */,
 				A4052A8E1D3492F400C19DD3 /* AppDelegate.m */,
 				A4052A901D3492F400C19DD3 /* ViewController.h */,
@@ -80,6 +84,15 @@
 				A4052A8B1D3492F400C19DD3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4052AC61D349F3600C19DD3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A4052AC71D349F4800C19DD3 /* testLib.h */,
+				A4052AC81D349F4800C19DD3 /* testLib.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +169,7 @@
 				A4052A921D3492F400C19DD3 /* ViewController.m in Sources */,
 				A4052A8F1D3492F400C19DD3 /* AppDelegate.m in Sources */,
 				A4052A8C1D3492F400C19DD3 /* main.m in Sources */,
+				A4052AC91D349F4800C19DD3 /* testLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
