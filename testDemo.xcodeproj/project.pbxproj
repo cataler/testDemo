@@ -13,6 +13,7 @@
 		A4052A951D3492F400C19DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4052A931D3492F400C19DD3 /* Main.storyboard */; };
 		A4052A971D3492F400C19DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4052A961D3492F400C19DD3 /* Assets.xcassets */; };
 		A4052A9A1D3492F400C19DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4052A981D3492F400C19DD3 /* LaunchScreen.storyboard */; };
+		A4052AC51D349A8A00C19DD3 /* testDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4052AC41D349A8A00C19DD3 /* testDemo.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A4052A961D3492F400C19DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4052A991D3492F400C19DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4052A9B1D3492F400C19DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4052AC41D349A8A00C19DD3 /* testDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testDemo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		A4052A8A1D3492F400C19DD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4052AC41D349A8A00C19DD3 /* testDemo.podspec */,
 				A4052A8B1D3492F400C19DD3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4052A9A1D3492F400C19DD3 /* LaunchScreen.storyboard in Resources */,
+				A4052AC51D349A8A00C19DD3 /* testDemo.podspec in Resources */,
 				A4052A971D3492F400C19DD3 /* Assets.xcassets in Resources */,
 				A4052A951D3492F400C19DD3 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +306,7 @@
 				A4052AA01D3492F400C19DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
